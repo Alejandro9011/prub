@@ -1,0 +1,53 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 30px 0px 30px;
+    align-items: center;
+    height: 100px;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: 'Lilita One';
+    font-size: 28px;
+    font-weight: 200;
+    text-decoration: none;
+   
+}
+  
+.header-logo-violet {
+    color: var(--violetButton);
+}
+
+.header-logo-black {
+    color: var(--blackText);
+}
+
+.header-button-in {
+   
+    color: var(--blackText);
+    text-decoration: none;
+    font-size: 20px;
+}
+.purple-circle {
+    width: 10px; 
+    height: 10px; 
+    background-color:#5C21B8;
+    border-radius: 50%; 
+    margin-top: 10px;
+    margin-right:95em;
+  }
+
+.Logo{
+    text-decoration: none;
+}
+.sb_footerlinksdiv{
+    display: flex;
+}

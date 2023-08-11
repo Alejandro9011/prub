@@ -1,0 +1,65 @@
+.container-filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .filter-by-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .filter-by-type span {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .filter-by-type select {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .filter-by-type select:focus {
+    outline: none;
+    border-color: #5c9ead;
+  }
+  
+  .filter-by-type select option {
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+  .filter-by-type select option[value=""] {
+    font-style: italic;
+    color: #999;
+  }
+  
+  .container-filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }

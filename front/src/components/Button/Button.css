@@ -1,0 +1,10 @@
+.button {
+    background-color: var(--violetButton);
+    color: var(--whiteBG);
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'League Spartan';
+}

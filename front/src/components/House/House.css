@@ -1,0 +1,226 @@
+.house__main {
+  width: 60%;
+  font-size: 0.5em;
+  margin: auto;
+  margin-left: 6.5rem;
+}
+  .house {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 450px);
+  margin-top: 11rem;
+  height: 80%;
+  width: 70%;
+  background-color: var(--whiteBG);
+  box-shadow: 1px 1px 10px 1px var(--grey);
+  border-radius: 10vh 0vh 0vh 0vh;
+  padding: 1em;
+}
+.house__image {
+  overflow: hidden;
+}
+.house__img {
+  width: 40%;
+  padding-bottom: 0.5em;
+  transition: all 1s;
+  margin-left: 8rem;
+}
+.house__img:hover {
+  transform: scale(1.2);
+}
+
+.house__div-country {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  gap: 1em;
+  text-align: center;
+  align-items: center;
+}
+
+.house__country {
+  background-color: var(--greenTag);
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  color: var(--whiteBG);
+  border-radius: 15vh;
+  width: 50%;
+  font-size: 1vw;
+}
+.house__country-modifer {
+  background-color: var(--violetButton);
+  color: var(--whiteBG);
+  width: 8vw;
+}
+
+.house__text {
+  font-weight: bold;
+  font-size: 1.1vw;
+}
+
+.house__div-content {
+  display: flex;
+  column-gap: 2em;
+  font-size: 1vw;
+}
+
+.house__icon {
+  color: var(--grey-icon);
+}
+
+.house__price {
+  padding-top: 0.5em;
+  color: var(--violetButton);
+  font-weight: 600;
+  font-size: 1.1vw;
+}
+.house_container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fill, 450px);
+  margin-left: 8em;
+  margin-bottom: 40px;
+}
+
+.figure {
+  overflow: hidden;
+}
+.imagen {
+  transition: all 1s;
+  width: 50%;
+  cursor: pointer;
+}
+
+.imagen:hover {
+  transform: scale(1.2);
+}
+
+.imagend {
+  border-radius: 50%;
+}
+
+.detail {
+  height: 100%;
+  width: 60%;
+  background-color: var(--whiteBG);
+  margin-left: 20px;
+}
+.detail__title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 1px;
+  color: var(--blackText);
+}
+
+.detail__img {
+  width: 90%;
+}
+
+.detail__text {
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--grey-icon);
+}
+
+.detail__content {
+  display: flex;
+  gap: 3em;
+  font-size: 1vw;
+  margin: 5vh 0vh 5vh 0vh;
+}
+
+.detail__icon {
+  color: var(--grey-icon);
+  font-size: 1.4em;
+}
+
+.detail__price {
+  padding-top: 0.5em;
+  color: var(--violetButton);
+  font-weight: 600;
+  font-size: 1.9vw;
+}
+
+.detail__description {
+  font-size: 22px;
+  width: 80%;
+}
+.detail__container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.form__box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  border: 1px solid var(--grey-icon);
+  border-radius: 7px;
+  width: 90%;
+  width: 368px;
+  height: 590px;
+  background-color: var(--whiteBG);
+  padding: 20px;
+}
+
+.form__input {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--grey-icon);
+  width: 320px;
+  height: 56px;
+}
+
+.forn__message {
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--grey-icon);
+  width: 320px;
+  height: 150px;
+}
+.form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7%;
+  border-color: var(--grey-icon);
+}
+.form_img_agent {
+  max-width: 73px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 1px var(--grey-icon);
+}
+
+.form_Name_Agent {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.form__agent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 220px;
+}
+
+.btn__send {
+  background-color: var(--violetButton);
+  color: var(--whiteBG);
+  font-size: 20px;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-family: "League Spartan";
+}
+
+.filtros {
+  display: flex;
+  flex-direction: row;
+}

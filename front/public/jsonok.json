@@ -1,0 +1,207 @@
+[{
+  "_id": {
+    "$oid": "64b7f7895bd714b199bbe37f"
+  },
+  "id": 1,
+  "type": "House",
+  "name": "House 1",
+  "description": "A charming house with lush palm trees in its landscape. Its cozy style and shaded terrace invite moments of tranquility. The tropical environment and palm trees provide a relaxing and refreshing sensation, creating a perfect ambiance to enjoy the outdoors.",
+  "image": "../assets/fotos/house1.png",
+  "imageLg": "House1Lg",
+  "country": "United States",
+  "address": "7240C Argyle St. Lawndale, CA 90260",
+  "bedrooms": "6",
+  "bathrooms": "3",
+  "surface": "m2 4200",
+  "year": "2016",
+  "price": "1100",
+  "agent": {
+    "image": "../assets/agents/agent1.png",
+    "name": "Patricia Tullert",
+    "phone": "0123 456 78910"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b7f7895bd714b199bbe380"
+  },
+  "id": 2,
+  "type": "Apartament",
+  "name": "House 2",
+  "description": "A spacious house with a pool, perfect for family enjoyment. Its modern and bright design offers ample indoor and outdoor spaces. The pool is surrounded by a beautiful garden, creating a perfect environment for relaxation and fun.",
+  "image": "../assets/fotos/house2.png",
+  "imageLg": "House2Lg",
+  "country": "Canada",
+  "address": "798 Talbot St. Bridgewater, NJ 08807",
+  "bedrooms": "6",
+  "bathrooms": "3",
+  "surface": "m2 4200",
+  "year": "2016",
+  "price": "1400",
+  "agent": {
+    "image": "../assets/agents/agent2.png",
+    "name": "Daryl Hawker",
+    "phone": "0123 456 78910"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b7f7895bd714b199bbe381"
+  },
+  "id": 3,
+  "type": "House",
+  "name": "House 3",
+  "description": "A charming house with a spacious terrace, ideal for enjoying the outdoors and panoramic views. Its modern and elegant design blends perfectly with the surrounding natural environment. The terrace becomes a versatile space for relaxation, entertaining guests, or simply enjoying the landscape at any time of the day.",
+  "image": "../assets/fotos/house3.png",
+  "imageLg": "House3Lg",
+  "country": "United States",
+  "address": "2 Glen Creek St. Alexandria, VA 22304",
+  "bedrooms": "6",
+  "bathrooms": "3",
+  "surface": "m2 4200",
+  "year": "2016",
+  "price": "1700",
+  "agent": {
+    "image": "../assets/agents/agent3.png",
+    "name": "Amado Smith",
+    "phone": "0123 456 78910"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b7f7895bd714b199bbe382"
+  },
+  "id": 4,
+  "type": "Apartament",
+  "name": "House 4",
+  "description": "A modern house with a pool, offering an oasis of relaxation and fun. Perfect for enjoying the sun and cooling off on hot days.",
+  "image": "../assets/fotos/house4.png",
+  "imageLg": "House4Lg",
+  "country": "Canada",
+  "address": "84 Woodland St. Cocoa, FL 32927",
+  "bedrooms": "6",
+  "bathrooms": "3",
+  "surface": "m2 4200",
+  "year": "2016",
+  "price": "2000",
+  "agent": {
+    "image": "../assets/agents/agent4.png",
+    "name": "Kaitlyn Gonzalez",
+    "phone": "0123 456 78910"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b7f7895bd714b199bbe383"
+  },
+  "id": 5,
+  "type": "House",
+  "name": "House 5",
+  "description": "A charming house with a beautiful front garden, providing a cozy and inviting atmosphere. The garden becomes an ideal space to enjoy nature and welcome family and friends with a warm embrace.",
+  "image": "../assets/fotos/house5.png",
+  "imageLg": "House5Lg",
+  "country": "United States",
+  "address": "28 Westport Dr. Warminster, PA 18974",
+  "bedrooms": "5",
+  "bathrooms": "3",
+  "surface": "m2 4200",
+  "year": "2015",
+  "price": "2100",
+  "agent": {
+    "image": "../assets/agents/agent5.png",
+    "name": "Grover Robinson",
+    "phone": "0123 456 78910"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b7f7895bd714b199bbe384"
+  },
+  "id": 6,
+  "type": "House",
+  "name": "House 6",
+  "description": "A modern house with a pool and a spacious terrace, combining the comfort of swimming and relaxing outdoors. The terrace provides a perfect space for leisure and entertainment, offering panoramic views to enjoy.",
+  "image": "../assets/fotos/house6.png",
+  "imageLg": "House6Lg",
+  "country": "Canada",
+  "address": "32 Pawnee Street Butte, MT 59701",
+  "bedrooms": "6",
+  "bathrooms": "3",
+  "surface": "m2 6200",
+  "year": "2014",
+  "price": "2200",
+  "agent": {
+    "image": "../assets/agents/agent6.png",
+    "name": "Karen Sorensen",
+    "phone": "0123 456 78910"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b7f7895bd714b199bbe385"
+  },
+  "id": 7,
+  "type": "Apartament",
+  "name": "Apartment 1",
+  "description": "A beautiful white house without a pool, highlighting its elegance and simplicity. The minimalist and bright design creates a serene and inviting ambiance, perfect for living and sharing special moments.",
+  "image": "../assets/fotos/house7.png",
+  "imageLg": "Apartment1Lg",
+  "country": "Canada",
+  "address": "32 Pawnee Street Butte, MT 59701",
+  "bedrooms": "2",
+  "bathrooms": "1",
+  "surface": "m2 1200",
+  "year": "2012",
+  "price": "2000",
+  "agent": {
+    "image": "../assets/agents/agent7.png",
+    "name": "Jawhar Shamil Naser",
+    "phone": "0123 456 78910"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b7f7895bd714b199bbe386"
+  },
+  "id": 8,
+  "type": "Apartament",
+  "name": "Apartment 2",
+  "description": "A charming house with a small pool and a majestic palm tree, creating a tropical and relaxing ambiance. The pool provides a space to refresh and have fun, while the palm tree adds a touch of natural beauty and shade to the surroundings.",
+  "image": "../assets/fotos/house8.png",
+  "imageLg": "Apartment2Lg",
+  "country": "Canada",
+  "address": "28 Westport Dr. Warminster, PA 18974",
+  "bedrooms": "3",
+  "bathrooms": "1",
+  "surface": "m2 1000",
+  "year": "2011",
+  "price": "3000",
+  "agent": {
+    "image": "../assets/agents/agent8.png",
+    "name": "Juana Douglass",
+    "phone": "0123 456 78910"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b7f7895bd714b199bbe387"
+  },
+  "id": 9,
+  "type": "Apartment",
+  "name": "Apartment 3",
+  "description": "A cozy one-story house without a pool, featuring a functional and practical design. Ideal for a comfortable and simple lifestyle, this small house offers everything you need on a single level, without compromising on comfort and charm.",
+  "image": "../assets/fotos/house9.png",
+  "imageLg": "Apartment3Lg",
+  "country": "Mexico",
+  "address": "84 Woodland St. Cocoa, FL 32927",
+  "bedrooms": "2",
+  "bathrooms": "1",
+  "surface": "m2 1100",
+  "year": "2011",
+  "price": "4000",
+  "agent": {
+    "image": "../assets/agents/agent9.png",
+    "name": "Jerry Schenck",
+    "phone": "0123 456 78910"
+  }
+}]

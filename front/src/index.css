@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600&family=Montserrat:wght@100&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+
+
+:root {
+  --violetButton: #5c21b8;
+  --blackText: #000000;
+  --greenTag: #1ebf64;
+  --whiteBG: #f1f1f1;
+  --grey: rgb(197, 193, 193);
+  --grey-icon: rgb(136, 129, 129);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--whiteBG);
+  margin: 0px;
+  padding: 0px;
+  font-family: "League Spartan";
+}

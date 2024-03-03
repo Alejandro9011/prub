@@ -12,10 +12,10 @@ import multer from "multer";
 //   useUnifiedTopology: true,
 // });
 
-mongoose.connect("mongodb+srv://alejandro902019:456@cluster1.eoszury.mongodb.net/Universal?retryWrites=true&w=majority&appName=Cluster1", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongoose.connect("mongodb+srv://alejandro902019:456@cluster1.eoszury.mongodb.net/Universal?retryWrites=true&w=majority&appName=Cluster1", {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 
 mongoose.Promise = global.Promise;
 

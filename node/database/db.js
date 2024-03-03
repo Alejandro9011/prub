@@ -22,7 +22,8 @@ const password = process.env.DB_PASSWORD;
 const cluster = process.env.DB_CLUSTER;
 const dbName = process.env.DB_NAME;
 
-const url = `mongodb+srv://${user}:${ password }@${cluster }/${dbName}?retryWrites=true&w=majority`;
+// const url = `mongodb+srv://${user}:${ password }@${cluster }/${dbName}?retryWrites=true&w=majority`;
+const url = process.env.MONGODB_URL;
 
 
 mongoose.connect(url);

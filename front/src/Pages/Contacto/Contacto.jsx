@@ -98,23 +98,6 @@ export function Contacto() {
                 </div>
                 <button className="buttond">Send message</button>
 
-                {/* <Button
-                  className="btnSubmit"
-                  type="submit"
-                  style={{
-                    background: "#000000fe",
-                    width: "14em",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    height: "2.5rem",
-                    color: "white",
-                    className: "button_r",
-
-                    marginTop: "20px",
-                  }}
-                >
-                  Send
-                </Button> */}
               </form>
             </div>
           )}

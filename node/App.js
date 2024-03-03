@@ -7,10 +7,10 @@ import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import multer from "multer";
 
-mongoose.connect("mongodb://127.0.0.1:27017/Universal", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongoose.connect("mongodb://127.0.0.1:27017/Universal", {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 mongoose.Promise = global.Promise;
 
 const app = express();

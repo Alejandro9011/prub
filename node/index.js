@@ -7,7 +7,7 @@ import userRoutes from "./routes/UserRoutes.js";
 import bodyParser from "body-parser";
 
 const app = express();
-const port = process.env.PORT || 8000; // Definir el puerto de esta manera
+const port = process.env.PORT || 3000; // Definir el puerto de esta manera
 
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));

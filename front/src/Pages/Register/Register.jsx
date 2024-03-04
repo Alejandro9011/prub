@@ -15,13 +15,16 @@ export const Register = () => {
     event.preventDefault();
 
     // Enviar solicitud de registro al backend
-    const response = await fetch("http://localhost:8000/users/register", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ name, password, email }),
-    });
+    const response = await fetch(
+      "https://node-qm8h.onrender.com/users/register",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, password, email }),
+      }
+    );
 
     if (response.ok) {
       // Registro exitoso, mostrar notificación y redireccionar a la página de login

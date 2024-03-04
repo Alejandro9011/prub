@@ -1,5 +1,5 @@
 import express from "express";
-import { registerUser, loginUser } from "../controllers/UserController.js";
+import { registerUser, loginUser,GetAllUsers } from "../controllers/UserController.js";
 
 const router = express.Router();
 
@@ -8,5 +8,6 @@ router.post("/register", registerUser);
 
 // Ruta para iniciar sesión
 router.post("/login", loginUser);
+router.get("/user", GetAllUsers );
 
 export default router;

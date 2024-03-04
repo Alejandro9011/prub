@@ -49,3 +49,12 @@ export const loginUser = async (req, res) => {
     res.status(500).json({ message: "Error al iniciar sesión" });
   }
 };
+
+export const GetAllUsers = async (req, res) => {
+  try {
+    const users = await User.find();
+    res.status(200).json(users);
+  } catch (error) {
+    res.json({ message: error.message });
+  }
+};

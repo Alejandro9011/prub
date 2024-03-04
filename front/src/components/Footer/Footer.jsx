@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import "./Footer.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -7,10 +5,9 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
 export const Footer = () => {
-  const iconStyle = { color: "#fafafa" ,"&:hover": { color: "#5c21b8" }}; // Define the color white for the icons
+  const iconStyle = { color: "#fafafa", "&:hover": { color: "#5c21b8" } }; // Define the color white for the icons
   return (
     <>
-      {console.log("This line is now reachable before the return.")}
       <div className="footer">
         <div className="sb-footer-section-padding">
           <div className="sb-footer-links">
@@ -56,10 +53,9 @@ export const Footer = () => {
             <div className="sb_footer-links_div">
               <h4>FollowUS</h4>
               <div className="socialmedia" style={iconStyle}>
-                  <FacebookIcon sx={{ "&:hover": { color: "#5c21b8" },}} />
-                  <TwitterIcon sx={{ "&:hover": { color: "#5c21b8" },}}/>
-                  <InstagramIcon sx={{ "&:hover": { color: "#5c21b8" },}}/>
-              
+                <FacebookIcon sx={{ "&:hover": { color: "#5c21b8" } }} />
+                <TwitterIcon sx={{ "&:hover": { color: "#5c21b8" } }} />
+                <InstagramIcon sx={{ "&:hover": { color: "#5c21b8" } }} />
               </div>
             </div>
           </div>

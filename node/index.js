@@ -4,6 +4,7 @@ import bodyParser from "body-parser";
 import HomeRoutes from "./routes/HomeRoutes.js";
 import userRoutes from "./routes/UserRoutes.js";
 import db from "./database/db.js";
+import { hash } from "bcrypt";
 
 const app = express();
 const port = process.env.PORT || 8000; // Definir el puerto de esta manera
@@ -15,19 +16,20 @@ app.use(bodyParser.json());
 
 // Ruta para obtener todas las casas
 // Ruta para obtener todas las casas
-app.get("/Home", async (req, res) => {
+app.get("/Homes", async (req, res) => {
   try {
     // Obtener todas las casas desde la base de datos
     const houses = await HomeModel.find();
-
+   
     // Responder con las casas obtenidas
     res.json(houses);
   } catch (error) {
     // Si ocurre algún error, responder con un mensaje de error y código de estado 500
     res.status(500).json({ message: error.message });
-  }
-});
 
+  }
+ 
+});
 
 // Rutas
 app.use("/Home", HomeRoutes);

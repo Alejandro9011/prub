@@ -8,7 +8,7 @@ export function Context({ children }) {
   const usernameLS = JSON.parse(localStorage.getItem('username'))??[]
   const [username, setUsername]=useState(usernameLS)
   const [data, setData] = useState([]);
-  console.log(data)
+ 
 
   useEffect(() => {
     axios("http://localhost:8000/Home").then((res)=>setData(res.data))
@@ -18,10 +18,11 @@ export function Context({ children }) {
     localStorage.setItem('username',JSON.stringify(username))
   },[username])   
   
-
+ console.log(data);
   return (
     <HouseContext.Provider value={{ data, setData,username, setUsername }}>
       {children}
     </HouseContext.Provider>
   );
+  
 }

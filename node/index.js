@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 // Ruta para obtener todas las casas
 // Ruta para obtener todas las casas
-app.get("/homes", async (req, res) => {
+app.get("/Home", async (req, res) => {
   try {
     // Obtener todas las casas desde la base de datos
     const houses = await HomeModel.find();

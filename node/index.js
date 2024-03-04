@@ -3,6 +3,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import HomeRoutes from "./routes/HomeRoutes.js";
 import userRoutes from "./routes/UserRoutes.js";
+import db from "./database/db.js";
 
 const app = express();
 const port = process.env.PORT || 8000; // Definir el puerto de esta manera

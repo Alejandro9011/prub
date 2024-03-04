@@ -11,8 +11,10 @@ export function Context({ children }) {
  
 
   useEffect(() => {
-    axios("http://localhost:8000/Home").then((res)=>setData(res.data))
-  }, [])
+    axios("https://node-qm8h.onrender.com/Home").then((res) =>
+      setData(res.data)
+    );
+  }, []);
   
   useEffect(()=>{
     localStorage.setItem('username',JSON.stringify(username))
